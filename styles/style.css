@@ -45,3 +45,21 @@ header{
     margin: auto;
     text-align: center;
 }
+footer2{
+  width: 1170px;
+  margin: auto;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+.wow{
+
+  width: 1170px;
+  height: 2px;
+  margin: auto;
+color: #4F525A;
+top: 3640.75px;
+transform: rotate(180.00deg);
+border: 1.5px	Middle
+rgba(255, 255, 255, 0.3);
+ 
+}
