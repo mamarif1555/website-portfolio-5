@@ -10,6 +10,22 @@ for(const btn of allBtn){
     const placeName = e.target.parentNode.childNodes[3].innerText;
     const setPrice = e.target.parentNode.parentNode.parentNode.parentNode.parentNode.childNodes[1].childNodes[3].childNodes[5].childNodes[1].childNodes[3].innerText;
   const setContainer = document.getElementById("set-count-container");
+
+
+
+
+
+
+
+     const seatSection = document.getElementById("tickets-section")
+     console.log("First")
+
+
+
+
+
+
+
   const h1 = document.createElement("h1");
   const h2 = document.createElement("h2");
   h2.innerText = placeName;
@@ -49,14 +65,7 @@ function grandTotalSetPrice(category){
   const totalSetCost =document.getElementById("set-price").innerText
   const stringToNumberConverted = parseInt(totalSetCost)
   
-if (category == "Apply"){
-  setInerText("set-all-price",stringToNumberConverted )
-}else if (category == "Coupon Code"){
-  setInerText("set-all-price",stringToNumberConverted )
-
-}else{
- return "Giv me a valit number"
-}
+          
 
 }
 
