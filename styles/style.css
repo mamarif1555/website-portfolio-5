@@ -52,7 +52,6 @@ footer2{
   font-family: "Inter", sans-serif;
 }
 .wow{
-
   width: 1170px;
   height: 2px;
   margin: auto;
@@ -62,4 +61,8 @@ transform: rotate(180.00deg);
 border: 1.5px	Middle
 rgba(255, 255, 255, 0.3);
  
+}
+h1{
+  display: flex;
+  gap: 275px;
 }
