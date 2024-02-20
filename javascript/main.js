@@ -13,19 +13,6 @@ for(const btn of allBtn){
     const setPrice = e.target.parentNode.parentNode.parentNode.parentNode.parentNode.childNodes[1].childNodes[3].childNodes[5].childNodes[1].childNodes[3].innerText;
   const setContainer = document.getElementById("set-count-container");
 
-
-
-
-     
-
-
-     
-
-
-
-
-
-
   const h1 = document.createElement("h1");
   const h2 = document.createElement("h2");
   h2.innerText = placeName;
