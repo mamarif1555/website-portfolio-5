@@ -14,12 +14,10 @@ for(const btn of allBtn){
 
 
 
+     
 
 
-
-     const seatSection = document.getElementById("tickets-section")
-     console.log("First")
-
+     
 
 
 
@@ -72,4 +70,21 @@ function grandTotalSetPrice(category){
 
 function setInerText(id, value) {
   document.getElementById(id).innerText = value;
+}
+
+
+
+
+
+
+// const homeScreen = document.getElementById("home")
+// homeScreen.classList.add('hidden')
+// const availableSet = document.getElementById('sell-set')
+// availableSet.classList.remove('hidden')
+// console.log(home)
+
+function Sell(){
+  hideElementById('home')
+  showElementById('sell-set')
+
 }

@@ -4,68 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bus-Ticket-Landing Page</title>
+             <!-- custom css -->
     <link rel="stylesheet" href="styles/style.css">
+              <!-- fontawsom  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Merriweather:wght@400;700;900&family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Merriweather:wght@400;700;900&family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+              <!-- tailwindcss and desyui  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     
 
 </head>
-<body>
-    <header>
-        <div class="raleway1">
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="first lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </div>
-                    <ul tabindex="0" class="text[18px] leading-5 font-medium menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Destination</a></li>
-                        <li><a>Search</a></li>
-                    </ul>
-                  </div>
-                  <a class="first text-3xl font-extrabold leading-10">P-Ticket</a>
+<body class="bg-[#FFFFFF]">
+    <header id="home" class="lg:w-[1171px] mx-auto" >
+      <div class="lg:w-[1171px] mx-auto raleway1">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="first lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="text[18px] leading-5 font-medium menu menu-horizontal px-1">
+                <ul tabindex="0" class="text[18px] leading-5 font-medium menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                     <li><a>Home</a></li>
                     <li><a>About</a></li>
                     <li><a>Destination</a></li>
                     <li><a>Search</a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                  <div class="btn">
-                    <a class="text[20px] font-bold leading-5 text-[#1DD100] px-4 py-2 ">Bus</a>
-                    <a><img src="images/bus-icon.png" alt=""></a>
-                  </div>
-                </div>
+                </ul>
               </div>
-        </div>
-        
-        <div>
-          <div class="rounded-3xl hero lg:min-h-[550px]" style="background-image: url('./images/banner.png');">
-            <div class=" raleway1">
-              <div class="lg:min-h-[550px] lg:max-w-3xl">
-                <p class="mt-[40px] text-neutral-content text-[64px] font-extrabold">End-to-End Travel with<br><span class="text-[#1DD100]">P Paribahan</span></p>
-                <p class="mt-[16px] text-[#FFFFFF] text-[14px] lg:text-[18px] leading-5 lg:leading-7 font-normal">If you're looking to travel by bus in your country or even worldwide, FlixBus has got you covered with our extensive bus routes! </p>
-                <button id="tickets-section" class="text-[#030712]text-[20px] font-bold leading-5 bg-[#1DD100] px-[30px] py-[21px] rounded-xl mt-[32px]">Buy1 Tickets</button>
+              <a class="first text-3xl font-extrabold leading-10">P-Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="text[18px] leading-5 font-medium menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <div class="btn">
+                <a class="text[20px] font-bold leading-5 text-[#1DD100] px-4 py-2 ">Bus</a>
+                <a><img src="images/bus-icon.png" alt=""></a>
               </div>
             </div>
-          </div>
+          </div> 
+      </div>
+
+      <div class="lg:w-[1171px] w-full lg:h-[550px] mx-auto relative">
+        <img class="lg:mx-[40px] w-full  absolute" src="images/banner.png" alt="">
+        <p class="lg:mt-[40px] lg:w-[740px] mx-[40px] lg:mx-[250px] text-neutral-content  text-[25px] lg:text-[64px] font-extrabold leading-[25px] lg:leading-[60px] absolute">End-to-End Travel with<br><span class="text-[#1DD100]">P Paribahan</span></p>
+        <p class="mt-[50px] lg:mt-[220px]   lg:w-[740px] mx-[6px] lg:mx-[260px] text-[#FFFFFF] text-[14px] text-[18px] font-normal leading-5 absolute">If you're looking to travel by bus in your country or even worldwide, FlixBus has got you covered with our  </p>
+      
+        <button onclick="Sell()" class="text-[#030712] text-[12px] lg:text-[20px] mt-[115px] lg:mt-[330px]  font-bold  bg-[#1DD100] px-[15px] lg:px-[30px] py-[15px] lg:py-[21px] rounded-[4px] lg:rounded-xl absolute">Buy Tickets</button>
         </div>
-    </header>
-    <main>
+
       <section class="best-offer">
-        <div>
+        <div >
             <h1 class="w-[370px] text-center mx-auto mt-[165px] text-[40px] text-[#030712] font-bold ">Best offers for you</h1>
           <div class="mt-[48px] justify-between lg:flex">
             <div class="offer1 bg-[#FFBF0F] max-w-[573px] max-h-[220px] rounded-3xl flex">
@@ -96,236 +94,249 @@
           <button class="my-[62px] btn btn-outline btn-success">See All Offers</button>
         </div>
       </section>
-      
-      <section class="paribahan">
-        <div class="w-[1171px] mx-auto">
-          <div class="w-[736px] mx-auto">
-            <h1 class="text-[40px] text-[#030712] mx-0 font-bold leading-[47px] best2">P.H Paribanan</h1>
-            <p class="text-[18px] text-[#65676E] font-normal leading-[30px] best3">Our website and app make it easy to plan your journey, find the cheapest bus fares, and purchase your bus tickets securely.booking last-minute trip.</p>
-          </div>
-          <div class="mt-[48px] flex">
-           <div>
-            <div class="mx-[4px] w-[808px] justify-between mx-auto flex">
-              <nav class="flex">
-                <nav><img class="mx-[32px] mt-[44px] w-[68px] h-[48]" src="images/bus-logo.png" alt=""></nav>
-                <nav class="">
-                  <h1 class="mt-[32px] text-[32px] text-[#030712] font-bold leading-[38px] best2">Greenline Paribahan</h1>
-                  <p class="mx-0 mt-[12px] text-[18px] text-[#686A71] font-normal leading-[2px] best3">Coach-009-WEB ! AC_Business</p>
-                </nav>
-              </nav>
-              <button id="set-avalable" class="mt-[40px] btn btn-outline btn-success"><nav class="flex">
-                <nav><img src="images/seat-green.png" alt=""></nav>
-                <nav><p class="mt-[8px] text-[#1DD100]">32 Seats left</p></nav>
-              </nav></button>
-            </div>
-            <div class=" mt-[24px] w-[808px] justify-between mx-auto">
-              <nav class="mt-[24px] w-[744px] justify-between mx-auto flex">
-                <p class="mx-[32px] mt-[32px] best2 text-[18px] font-semibold leading-[21px] text-[#65676E]">Route</p>
-                <p class="mt-[32px] best2 text-[18px] font-semibold leading-[21px] text-[#030712]">Dhaka-Sylhet</p>
-              </nav>
-              <hr class="mx-auto mt-[24px] w-[700px] h-[2px] text-[#CDCDD0]">
-              <nav class="mt-[24px] w-[744px] justify-between mx-auto flex">
-                <p class="mx-[32px] mt-[32px] best2 text-[18px] font-semibold leading-[21px] text-[#65676E]">Departure Time</p>
-                <p class="mt-[32px] best2 text-[18px] font-semibold leading-[21px] text-[#030712]">9:00 PM</p>
-              </nav>
-              <hr class="mx-auto mt-[24px] w-[700px] h-[2px] text-[#CDCDD0]">
-              <div class="mt-[24px] w-[744px] justify-between mx-auto ">
-                <button class="justify-start mx-0 btn btn-active">Boarding Point - Laxmipur</button>
-                <button class="mx-[55px] btn btn-active">Dropping Point - Bogura</button>
-                <button class="justify-end mr-0 btn btn-active">Est.Time - 11 Hour</button>
-              </div>
-            </div>
-           </div>
-            <img class="mx-[32px]" src="images/info-devider.png" alt="">
-            <div>
-              <div class="mx-[32px] mt-[132px] w-[135px] ">
-                <img class="mx-auto" src="images/fare.png" alt="">
-                <h1 class="mt-[28px] text-[32px] font-bold leading-[40px] best2">550 Taka</h1>
-                <p class="text-[24px] font-semibold leading-[40px] best2">Per Seat</p>
-              </div>
-             </div>
-          </div>
+    </header>
+    <section id="sell-set" class="paribahan hidden">
+      <div class="w-[1171px] mx-auto">
+        <div class="w-[736px] mx-auto">
+          <h1 class="text-[40px] text-[#030712] mx-0 font-bold leading-[47px] best2">P.H Paribanan</h1>
+          <p class="text-[18px] text-[#65676E] font-normal leading-[30px] best3">Our website and app make it easy to plan your journey, find the cheapest bus fares, and purchase your bus tickets securely.booking last-minute trip.</p>
         </div>
-        <div class="mt-[58px] w-[1171px] mx-auto flex">
-          <div class="w-[609px]">
-            <h1 class="mx-[32px] mt-[32px] text-[24px] text-[#030712] font-semibold leading-[28px] best2">Select Your</h1>
-            <hr class="mt-[24px] mx-[32px] w-[609px] h-[2px] text-[#CDCDD0]">
-            <nav class="mx-[32px] mt-[20px] w-[609px] justify-between mx-0 flex">
-              <div class="flex">
-                <img src="images/seat-gray.png" alt="">
-                <p class="text-[18px] text-[#818388] font-medium leading-[22px] best2">Available</p>
-              </div>
-              <div class="flex">
-                <img src="images/seat-green-filled.png" alt="">
-                <p class="text-[18px] text-[#1DD100] font-medium leading-[22px] best2">Selected</p>
-              </div>
+        <div class="mt-[48px] flex">
+         <div>
+          <div class="mx-[4px] w-[808px] justify-between mx-auto flex">
+            <nav class="flex">
+              <nav><img class="mx-[32px] mt-[44px] w-[68px] h-[48]" src="images/bus-logo.png" alt=""></nav>
+              <nav class="">
+                <h1 class="mt-[32px] text-[32px] text-[#030712] font-bold leading-[38px] best2">Greenline Paribahan</h1>
+                <p class="mx-0 mt-[12px] text-[18px] text-[#686A71] font-normal leading-[2px] best3">Coach-009-WEB ! AC_Business</p>
+              </nav>
             </nav>
-            <hr class="mt-[24px] mx-[32px] w-[609px] h-[2px] text-[#CDCDD0]">
-            <button class="mt-[24px] mx-[540px] w-[110px] h-[56px] btn btn-active btn-ghost"><svg width="26.000000" height="26.000000" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <desc>
-                  Created with Pixso.
-              </desc>
-              <defs/>
-              <path id="Vector" d="M1.91333 17.5922C2.5166 19.0481 3.40039 20.371 4.51465 21.4853C5.62891 22.5996 6.9519 23.4835 8.40771 24.0865C9.86377 24.6896 11.4241 25 13 25C14.5759 25 16.1362 24.6896 17.5923 24.0865C19.0481 23.4835 20.3711 22.5996 21.4854 21.4853C22.5996 20.371 23.4834 19.0481 24.0867 17.5922C24.6897 16.1363 25 14.5759 25 13C25 11.4241 24.6897 9.86371 24.0867 8.40781C23.4834 6.9519 22.5996 5.62903 21.4854 4.51471C20.3711 3.40042 19.0481 2.51651 17.5923 1.91345C16.1362 1.31039 14.5759 1 13 1C11.4241 1 9.86377 1.31039 8.40771 1.91345C6.9519 2.51651 5.62891 3.40042 4.51465 4.51471C3.40039 5.62903 2.5166 6.9519 1.91333 8.40781C1.3103 9.86371 1 11.4241 1 13C1 14.5759 1.3103 16.1363 1.91333 17.5922ZM11.1145 14.8856C11.6145 15.3857 12.2927 15.6667 13 15.6667C13.7073 15.6667 14.3855 15.3857 14.8855 14.8856C15.3857 14.3855 15.6667 13.7072 15.6667 13C15.6667 12.2928 15.3857 11.6145 14.8855 11.1144C14.3855 10.6143 13.7073 10.3333 13 10.3333C12.2927 10.3333 11.6145 10.6143 11.1145 11.1144C10.6143 11.6145 10.3333 12.2928 10.3333 13C10.3333 13.7072 10.6143 14.3855 11.1145 14.8856ZM13 15.6667L13 25M10.3333 13L1.33325 10.3333M15.6667 13L24.6667 10.3333" stroke="#030712" stroke-opacity="0.700000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
-            </svg>
-            </button>
-            <div class="w-[609px ]">
-              <nav class="mt-[24px] w-[609px] justify-between flex">
-                <p class="mx-[32px] w-[80px] h-[50px] text-[36px] text-[#00A96E] font-bold">A</p>
-                <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">A1</button>
-                <button class="add-btn mx-[25px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">A2</button>
-                <button class="add-btn mx-[35px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">A3</button>
-                <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">A4</button>
-              </nav>
-
-              <nav class="mt-[24px] w-[609px] justify-between flex">
-                <p class="mx-[32px] w-[80px] h-[50px] text-[36px] text-[#00A96E] font-bold">B</p>
-                <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">B1</button>
-                <button class="add-btn mx-[25px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">B2</button>
-                <button class="add-btn mx-[35px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">B3</button>
-                <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">B4</button>
-              </nav>
-             
-              <nav class="mt-[24px] w-[609px] justify-between flex">
-                <p class="mx-[32px] w-[80px] h-[50px] text-[36px] text-[#00A96E] font-bold">C</p>
-                <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">C1</button>
-                <button class="add-btn mx-[25px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">C2</button>
-                <button class="add-btn mx-[35px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">C3</button>
-                <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">C4</button>
-              </nav>
-              <nav class="mt-[24px] w-[609px] justify-between flex">
-                <p class="mx-[32px] w-[80px] h-[50px] text-[36px] text-[#00A96E] font-bold">D</p>
-                <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">D1</button>
-                <button class="add-btn mx-[25px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">D2</button>
-                <button class="add-btn mx-[35px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">D3</button>
-                <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">D4</button>
-              </nav>
-              
-              <nav class="mt-[24px] w-[609px] justify-between flex">
-                <p class="mx-[32px] w-[80px] h-[50px] text-[36px] text-[#00A96E] font-bold">E</p>
-                <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">E1</button>
-                <button class="add-btn mx-[25px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">E2</button>
-                <button class="add-btn mx-[35px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">E3</button>
-                <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">E4</button>
-              </nav>
-
-              <nav class="mt-[24px] w-[609px] justify-between flex">
-                <p class="mx-[32px] w-[80px] h-[50px] text-[36px] text-[#00A96E] font-bold">F</p>
-                <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">F1</button>
-                <button class="add-btn mx-[25px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">F2</button>
-                <button class="add-btn mx-[35px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">F3</button>
-                <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">F4</button>
-              </nav>
-
-              <nav class="mt-[24px] w-[609px] justify-between flex">
-                <p class="mx-[32px] w-[80px] h-[50px] text-[36px] text-[#00A96E] font-bold">G</p>
-                <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">G1</button>
-                <button class="add-btn mx-[25px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">G2</button>
-                <button class="add-btn mx-[35px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">G3</button>
-                <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">G4</button>
-              </nav>
-              
-              <nav class="mt-[24px] w-[609px] justify-between flex">
-                <p class="mx-[32px] w-[80px] h-[50px] text-[36px] text-[#00A96E] font-bold">H</p>
-                <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">H1</button>
-                <button class="add-btn mx-[25px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">H2</button>
-                <button class="add-btn mx-[35px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">H3</button>
-                <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">H4</button>
-              </nav>
-            </div>
-          </div> 
-          <img class="mx-[32px] text-[#B3B4B7]" src="images/info-devider.png" alt="">
-          <div class="mt-[32px]">
-            <h1 class="mx-[32px] mt-0 text-[24px] text-[#030712] font-semibold leading-[28px] best2">Select Your</h1>
-            <hr class="mt-[22px] w-[409px] h-[2px] text-[#CDCDD0]">
-            <div class="mt-[24px] mb-[32px] w-[433px]">
-              <nav class="mt-[53px]  mx-auto w-[369px] justify-between flex">
-               <div class="flex">
-                <h1 class="text-[16px] text-[#030712] font-medium ">Seat</h1>
-                <h2 id="set-count" class="bg-[#1DD100] text-[#FFFFFF] w-[23px] -[12px] mx-auto justify-center flex rounded-sm">0</h2>
-               </div>
-                <h1 class="text-[16px] text-[#030712] font-medium ">Class</h1>
-                <h1 class="text-[16px] text-[#030712] font-medium ">Price</h1>
-              </nav>
-              <hr class="mt-[25px] w-[409px] h-[2px] text-[#CDCDD0]">
-              
-              <nav  id="set-count-container"  class="mt-[15px]  mx-auto w-[369px]">
-                <h1 class="text-[16px] text-[#7E8085] font-medium "></h1>
-                
-                <h2 class="text-[16px] text-[#7E8085] font-medium "></h2>
-              </nav>
-
-
-
-              <hr class="mt-[25px] w-[409px] h-[2px] text-[#CDCDD0]">
-              <nav class="mt-[15px]  mx-auto w-[369px] justify-between flex">
-                <h1 class="text-[16px] text-[#040813] font-medium best3">Total Price</h1>
-                <p class="text-[16px] text-[#040813] font-medium justify-end best3">BDT <span id="set-price">0</span></p>
-              </nav>
-              <nav class="mt-[18px]  mx-auto w-[369px] justify-between flex">
-                
-                <input class="text-[16px] text-[#B7B9BC] font-medium " type="text" name="" placeholder="Have any copupon?" id="">
-                <button onclick="grandTotalSetPrice('Apply')" class="bg-[#1DD100] text-[#FFFFFF] text-[16px] font-semibold w-[80px] h-[40px] rounded-[8px]">Apply</button>
-              </nav>
-              <nav class="mt-[32px]  mx-auto w-[369px] justify-between flex">
-                <h1 class="text-[16px] text-[#040813] font-medium best3">Grand Total</h1>
-                <p class="text-[16px] text-[#040813] font-medium best3">BDT <span id="set-all-price">0</span></p>
-              </nav>
-            </div>
-           <nav>
-            <p class="mt-[24px] text-[16px] text-[#040813] font-semibold best3"> Passenger Name*</p>
-           <input class="mt-[16px] w-[433px] h-[64px] text-[16px] text-[400] font-normal border-[8px]" type="text" name="" placeholder="Enter your name" id="">
-           </nav>
-           <nav>
-            <p class="mt-[24px] text-[16px] text-[#040813] font-semibold best3">Phone Number*</p>
-           <input class="mt-[16px] w-[433px] h-[64px] text-[16px] text-[400] font-normal border-[8px]"  type="number" name="" placeholder="Enter your phone number" id="">
-           </nav>
-           <nav>
-            <p class="mt-[24px] text-[16px] text-[#040813] font-semibold best3"> Email ID</p>
-            <input class="mt-[16px] w-[433px] h-[64px] text-[16px] text-[400] font-normal border-[8px]"  type="email" name="" placeholder="Enter your email id" id="">
-           </nav>
-           <button class="bg-[#1DD100] text-[#FFFFFF] mt-[24px] text-[20px] font-extrabold  w-[433px] h-[65px] rounded-[16px]">Next</button>
-           <div class="mt-[24px] flex justify-center mx-auto">
-            <p class="mx-[20px] text-[16px] font-normal text-[#8E9094] underline best3">Terms and Conditions</p>
-            <p class="mx-[20px] text-[16px] font-normal text-[#8E9094] underline best3">Cancellation Policy</p>
-           </div>
+            <button id="set-avalable" class="mt-[40px] btn btn-outline btn-success"><nav class="flex">
+              <nav><img src="images/seat-green.png" alt=""></nav>
+              <nav><p class="mt-[8px] text-[#1DD100]">32 Seats left</p></nav>
+            </nav></button>
           </div>
+          <div class=" mt-[24px] w-[808px] justify-between mx-auto">
+            <nav class="mt-[24px] w-[744px] justify-between mx-auto flex">
+              <p class="mx-[32px] mt-[32px] best2 text-[18px] font-semibold leading-[21px] text-[#65676E]">Route</p>
+              <p class="mt-[32px] best2 text-[18px] font-semibold leading-[21px] text-[#030712]">Dhaka-Sylhet</p>
+            </nav>
+            <hr class="mx-auto mt-[24px] w-[700px] h-[2px] text-[#CDCDD0]">
+            <nav class="mt-[24px] w-[744px] justify-between mx-auto flex">
+              <p class="mx-[32px] mt-[32px] best2 text-[18px] font-semibold leading-[21px] text-[#65676E]">Departure Time</p>
+              <p class="mt-[32px] best2 text-[18px] font-semibold leading-[21px] text-[#030712]">9:00 PM</p>
+            </nav>
+            <hr class="mx-auto mt-[24px] w-[700px] h-[2px] text-[#CDCDD0]">
+            <div class="mt-[24px] w-[744px] justify-between mx-auto ">
+              <button class="justify-start mx-0 btn btn-active">Boarding Point - Laxmipur</button>
+              <button class="mx-[55px] btn btn-active">Dropping Point - Bogura</button>
+              <button class="justify-end mr-0 btn btn-active">Est.Time - 11 Hour</button>
+            </div>
+          </div>
+         </div>
+          <img class="mx-[32px]" src="images/info-devider.png" alt="">
+          <div>
+            <div class="mx-[32px] mt-[132px] w-[135px] ">
+              <img class="mx-auto" src="images/fare.png" alt="">
+              <h1 class="mt-[28px] text-[32px] font-bold leading-[40px] best2">550 Taka</h1>
+              <p class="text-[24px] font-semibold leading-[40px] best2">Per Seat</p>
+            </div>
+           </div>
         </div>
-      </section>
-      
-    </main>
-    <footer class="bg-[#030712] ">
-     <div class="mt-[120px] w-[1171px] justify-between mx-auto flex">
-      <nav class="mt-[120px]">
-        <h1 class="text-[36px] text-[#FFFFFF] font-extrabold leading-[42px] best2">P-Ticket</h1>
-        <p class="mt-[16px] text-[18px] text-[#CDCDD0] font-normal leading-[30px] best2">P-Ticket is digital platform to make your<br>daily commuting better</p>
-      </nav>
-     <div class="mt-[120px]">
-      <h1 class="text-[20px] text-[#FFFFFF] font-semibold leading-[23px] best2">Download our app</h1> 
-      <button class="mt-[20px] btn btn-outline"><nav>
-        <div class="flex">
-          <nav><img src="images/playstore.png" alt=""></nav>
-          <nav>
-            <h6 class="font-medium text-[#FFFFFF] best2">GET IT ON</h6>
-            <h1 class=" text-[#FFFFFF] text-[20px] font-bold best2">Google Play</h1>
+      </div>
+      <div class="mt-[58px] w-[1171px] mx-auto flex">
+        <div class="w-[609px]">
+          <h1 class="mx-[32px] mt-[32px] text-[24px] text-[#030712] font-semibold leading-[28px] best2">Select Your</h1>
+          <hr class="mt-[24px] mx-[32px] w-[609px] h-[2px] text-[#CDCDD0]">
+          <nav class="mx-[32px] mt-[20px] w-[609px] justify-between mx-0 flex">
+            <div class="flex">
+              <img src="images/seat-gray.png" alt="">
+              <p class="text-[18px] text-[#818388] font-medium leading-[22px] best2">Available</p>
+            </div>
+            <div class="flex">
+              <img src="images/seat-green-filled.png" alt="">
+              <p class="text-[18px] text-[#1DD100] font-medium leading-[22px] best2">Selected</p>
+            </div>
           </nav>
+          <hr class="mt-[24px] mx-[32px] w-[609px] h-[2px] text-[#CDCDD0]">
+          <button class="mt-[24px] mx-[540px] w-[110px] h-[56px] btn btn-active btn-ghost"><svg width="26.000000" height="26.000000" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <desc>
+                Created with Pixso.
+            </desc>
+            <defs/>
+            <path id="Vector" d="M1.91333 17.5922C2.5166 19.0481 3.40039 20.371 4.51465 21.4853C5.62891 22.5996 6.9519 23.4835 8.40771 24.0865C9.86377 24.6896 11.4241 25 13 25C14.5759 25 16.1362 24.6896 17.5923 24.0865C19.0481 23.4835 20.3711 22.5996 21.4854 21.4853C22.5996 20.371 23.4834 19.0481 24.0867 17.5922C24.6897 16.1363 25 14.5759 25 13C25 11.4241 24.6897 9.86371 24.0867 8.40781C23.4834 6.9519 22.5996 5.62903 21.4854 4.51471C20.3711 3.40042 19.0481 2.51651 17.5923 1.91345C16.1362 1.31039 14.5759 1 13 1C11.4241 1 9.86377 1.31039 8.40771 1.91345C6.9519 2.51651 5.62891 3.40042 4.51465 4.51471C3.40039 5.62903 2.5166 6.9519 1.91333 8.40781C1.3103 9.86371 1 11.4241 1 13C1 14.5759 1.3103 16.1363 1.91333 17.5922ZM11.1145 14.8856C11.6145 15.3857 12.2927 15.6667 13 15.6667C13.7073 15.6667 14.3855 15.3857 14.8855 14.8856C15.3857 14.3855 15.6667 13.7072 15.6667 13C15.6667 12.2928 15.3857 11.6145 14.8855 11.1144C14.3855 10.6143 13.7073 10.3333 13 10.3333C12.2927 10.3333 11.6145 10.6143 11.1145 11.1144C10.6143 11.6145 10.3333 12.2928 10.3333 13C10.3333 13.7072 10.6143 14.3855 11.1145 14.8856ZM13 15.6667L13 25M10.3333 13L1.33325 10.3333M15.6667 13L24.6667 10.3333" stroke="#030712" stroke-opacity="0.700000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+          </svg>
+          </button>
+          <div class="w-[609px ]">
+            <nav class="mt-[24px] w-[609px] justify-between flex">
+              <p class="mx-[32px] w-[80px] h-[50px] text-[36px] text-[#00A96E] font-bold">A</p>
+              <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">A1</button>
+              <button class="add-btn mx-[25px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">A2</button>
+              <button class="add-btn mx-[35px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">A3</button>
+              <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">A4</button>
+            </nav>
+  
+            <nav class="mt-[24px] w-[609px] justify-between flex">
+              <p class="mx-[32px] w-[80px] h-[50px] text-[36px] text-[#00A96E] font-bold">B</p>
+              <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">B1</button>
+              <button class="add-btn mx-[25px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">B2</button>
+              <button class="add-btn mx-[35px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">B3</button>
+              <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">B4</button>
+            </nav>
+           
+            <nav class="mt-[24px] w-[609px] justify-between flex">
+              <p class="mx-[32px] w-[80px] h-[50px] text-[36px] text-[#00A96E] font-bold">C</p>
+              <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">C1</button>
+              <button class="add-btn mx-[25px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">C2</button>
+              <button class="add-btn mx-[35px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">C3</button>
+              <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">C4</button>
+            </nav>
+            <nav class="mt-[24px] w-[609px] justify-between flex">
+              <p class="mx-[32px] w-[80px] h-[50px] text-[36px] text-[#00A96E] font-bold">D</p>
+              <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">D1</button>
+              <button class="add-btn mx-[25px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">D2</button>
+              <button class="add-btn mx-[35px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">D3</button>
+              <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">D4</button>
+            </nav>
+            
+            <nav class="mt-[24px] w-[609px] justify-between flex">
+              <p class="mx-[32px] w-[80px] h-[50px] text-[36px] text-[#00A96E] font-bold">E</p>
+              <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">E1</button>
+              <button class="add-btn mx-[25px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">E2</button>
+              <button class="add-btn mx-[35px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">E3</button>
+              <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">E4</button>
+            </nav>
+  
+            <nav class="mt-[24px] w-[609px] justify-between flex">
+              <p class="mx-[32px] w-[80px] h-[50px] text-[36px] text-[#00A96E] font-bold">F</p>
+              <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">F1</button>
+              <button class="add-btn mx-[25px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">F2</button>
+              <button class="add-btn mx-[35px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">F3</button>
+              <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">F4</button>
+            </nav>
+  
+            <nav class="mt-[24px] w-[609px] justify-between flex">
+              <p class="mx-[32px] w-[80px] h-[50px] text-[36px] text-[#00A96E] font-bold">G</p>
+              <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">G1</button>
+              <button class="add-btn mx-[25px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">G2</button>
+              <button class="add-btn mx-[35px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">G3</button>
+              <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">G4</button>
+            </nav>
+            
+            <nav class="mt-[24px] w-[609px] justify-between flex">
+              <p class="mx-[32px] w-[80px] h-[50px] text-[36px] text-[#00A96E] font-bold">H</p>
+              <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">H1</button>
+              <button class="add-btn mx-[25px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">H2</button>
+              <button class="add-btn mx-[35px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">H3</button>
+              <button class="add-btn mx-[0px] w-[110px] h-[56px] text-[32px] font-bold btn btn-outline btn-success">H4</button>
+            </nav>
+          </div>
+        </div> 
+        <img class="mx-[32px] text-[#B3B4B7]" src="images/info-devider.png" alt="">
+        <div class="mt-[32px]">
+          <h1 class="mx-[32px] mt-0 text-[24px] text-[#030712] font-semibold leading-[28px] best2">Select Your</h1>
+          <hr class="mt-[22px] w-[409px] h-[2px] text-[#CDCDD0]">
+          <div class="mt-[24px] mb-[32px] w-[433px]">
+            <nav class="mt-[53px]  mx-auto w-[369px] justify-between flex">
+             <div class="flex">
+              <h1 class="text-[16px] text-[#030712] font-medium ">Seat</h1>
+              <h2 id="set-count" class="bg-[#1DD100] text-[#FFFFFF] w-[23px] -[12px] mx-auto justify-center flex rounded-sm">0</h2>
+             </div>
+              <h1 class="text-[16px] text-[#030712] font-medium ">Class</h1>
+              <h1 class="text-[16px] text-[#030712] font-medium ">Price</h1>
+            </nav>
+            <hr class="mt-[25px] w-[409px] h-[2px] text-[#CDCDD0]">
+            
+            <nav  id="set-count-container"  class="mt-[15px]  mx-auto w-[369px]">
+              <h1 class="text-[16px] text-[#7E8085] font-medium "></h1>
+              
+              <h2 class="text-[16px] text-[#7E8085] font-medium "></h2>
+            </nav>
+  
+  
+  
+            <hr class="mt-[25px] w-[409px] h-[2px] text-[#CDCDD0]">
+            <nav class="mt-[15px]  mx-auto w-[369px] justify-between flex">
+              <h1 class="text-[16px] text-[#040813] font-medium best3">Total Price</h1>
+              <p class="text-[16px] text-[#040813] font-medium justify-end best3">BDT <span id="set-price">0</span></p>
+            </nav>
+            <nav class="mt-[18px]  mx-auto w-[369px] justify-between flex">
+              
+              <input class="text-[16px] text-[#B7B9BC] font-medium " type="text" name="" placeholder="Have any copupon?" id="">
+              <button onclick="grandTotalSetPrice('Apply')" class="bg-[#1DD100] text-[#FFFFFF] text-[16px] font-semibold w-[80px] h-[40px] rounded-[8px]">Apply</button>
+            </nav>
+            <nav class="mt-[32px]  mx-auto w-[369px] justify-between flex">
+              <h1 class="text-[16px] text-[#040813] font-medium best3">Grand Total</h1>
+              <p class="text-[16px] text-[#040813] font-medium best3">BDT <span id="set-all-price">0</span></p>
+            </nav>
+          </div>
+         <nav>
+          <p class="mt-[24px] text-[16px] text-[#040813] font-semibold best3"> Passenger Name*</p>
+         <input class="mt-[16px] w-[433px] h-[64px] text-[16px] text-[400] font-normal border-[8px]" type="text" name="" placeholder="Enter your name" id="">
+         </nav>
+         <nav>
+          <p class="mt-[24px] text-[16px] text-[#040813] font-semibold best3">Phone Number*</p>
+         <input class="mt-[16px] w-[433px] h-[64px] text-[16px] text-[400] font-normal border-[8px]"  type="number" name="" placeholder="Enter your phone number" id="">
+         </nav>
+         <nav>
+          <p class="mt-[24px] text-[16px] text-[#040813] font-semibold best3"> Email ID</p>
+          <input class="mt-[16px] w-[433px] h-[64px] text-[16px] text-[400] font-normal border-[8px]"  type="email" name="" placeholder="Enter your email id" id="">
+         </nav>
+         <button class="bg-[#1DD100] text-[#FFFFFF] mt-[24px] text-[20px] font-extrabold  w-[433px] h-[65px] rounded-[16px]">Next</button>
+         <div class="mt-[24px] flex justify-center mx-auto">
+          <p class="mx-[20px] text-[16px] font-normal text-[#8E9094] underline best3">Terms and Conditions</p>
+          <p class="mx-[20px] text-[16px] font-normal text-[#8E9094] underline best3">Cancellation Policy</p>
+         </div>
         </div>
-     </div>
-      </nav></button>
-     </div>
-     <hr class="mt-[48px] wow">
-     <div class="mt-[31px] w-[1171px] justify-between mx-auto flex">
-        <nav>
-          <p class="mb-[120px] text-[16px] text-[#95979B] leading-[19px] font-normal">@all rights reserved, P-Ticket services limited.2024</p>
+      </div>
+    </section>
+  <footer class="bg-[#030712] ">
+    <div class="mt-[120px] w-[1171px] justify-between mx-auto flex">
+     <nav class="mt-[120px]">
+       <h1 class="text-[36px] text-[#FFFFFF] font-extrabold leading-[42px] best2">P-Ticket</h1>
+       <p class="mt-[16px] text-[18px] text-[#CDCDD0] font-normal leading-[30px] best2">P-Ticket is digital platform to make your<br>daily commuting better</p>
+     </nav>
+    <div class="mt-[120px]">
+     <h1 class="text-[20px] text-[#FFFFFF] font-semibold leading-[23px] best2">Download our app</h1> 
+     <button class="mt-[20px] btn btn-outline"><nav>
+       <div class="flex">
+         <nav><img src="images/playstore.png" alt=""></nav>
+         <nav>
+           <h6 class="font-medium text-[#FFFFFF] best2">GET IT ON</h6>
+           <h1 class=" text-[#FFFFFF] text-[20px] font-bold best2">Google Play</h1>
          </nav>
-         <nav class="mb-[120px]  flex best3">
-          <p class="mx-8 text-[16px] text-[#FFFFFF] leading-[19px] font-medium">Terms & condition</p>
-          <p class="mx-8 text-[16px] text-[#FFFFFF] leading-[19px] font-medium">Return & refund policy</p>
-          <p class="text-[16px] text-[#FFFFFF] leading-[19px] font-medium">Privacy policy</p>
-         </nav>
-     </div>
-    </footer>
+       </div>
+    </div>
+     </nav></button>
+    </div>
+    <hr class="mt-[48px] wow">
+    <div class="mt-[31px] w-[1171px] justify-between mx-auto flex">
+       <nav>
+         <p class="mb-[120px] text-[16px] text-[#95979B] leading-[19px] font-normal">@all rights reserved, P-Ticket services limited.2024</p>
+        </nav>
+        <nav class="mb-[120px]  flex best3">
+         <p class="mx-8 text-[16px] text-[#FFFFFF] leading-[19px] font-medium">Terms & condition</p>
+         <p class="mx-8 text-[16px] text-[#FFFFFF] leading-[19px] font-medium">Return & refund policy</p>
+         <p class="text-[16px] text-[#FFFFFF] leading-[19px] font-medium">Privacy policy</p>
+        </nav>
+    </div>
+   </footer>
+ 
+  </main>
 
+    <script src="javascript/mico.js"></script>
     <script src="javascript/main.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
