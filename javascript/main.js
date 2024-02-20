@@ -8,6 +8,8 @@ for(const btn of allBtn){
   btn.addEventListener("click", function (e){
     count = count + 1;
     const placeName = e.target.parentNode.childNodes[3].innerText;
+    
+    console.log(placeName)
     const setPrice = e.target.parentNode.parentNode.parentNode.parentNode.parentNode.childNodes[1].childNodes[3].childNodes[5].childNodes[1].childNodes[3].innerText;
   const setContainer = document.getElementById("set-count-container");
 
